@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff5f7" />
+  <title>Wazu &amp; Nithu — Kissy Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <main class="game-shell">
+  <header class="topbar"><a class="brand" href="#" aria-label="Wazu and Nithu"><span class="brand-heart">♥</span> hope this brings a smile to your grumpy ahh in the morning</a></header>
+    <section class="intro">
+      <div class="eyebrow"><span>♡</span> THE SWEETEST LITTLE GAME <span>♡</span></div>
+      <h1>Love is in the <span>air!</span></h1>
+      <p>Tap a character to send a little kiss their way.</p>
+    </section>
+    <section class="scoreboard" aria-label="Kiss scoreboard">
+      <div class="score-card wazu-score"><div class="score-avatar wazu-mini">W</div><div><span class="score-name">Wazu</span><span class="score-label">kisses given</span></div><strong id="wazu-count">0</strong><span class="score-heart">♥</span></div>
+      <div class="score-divider"><span>♡</span><small>SCORE</small></div>
+      <div class="score-card nithu-score"><div class="score-avatar nithu-mini">N</div><div><span class="score-name">Nithu</span><span class="score-label">kisses given</span></div><strong id="nithu-count">0</strong><span class="score-heart">♥</span></div>
+    </section>
+    <section class="garden" aria-label="Tap Wazu or Nithu to play">
+      <div class="cloud cloud-left">☁</div><div class="cloud cloud-right">☁</div><span class="float-heart heart-one">♡</span><span class="float-heart heart-two">♥</span><span class="float-star star-one">✦</span><span class="float-star star-two">✧</span>
+      <div class="characters">
+        <button class="character wazu" id="wazu" aria-label="Tap Wazu to give Nithu a kiss" type="button">
+          <span class="name-tag">Wazu <i>♡</i></span>
+          <span class="person">
+            <span class="hair-back"></span><span class="body dress"><i class="dress-heart">♥</i></span><span class="neck"></span><span class="head"><i class="hair-cap"></i><i class="hair-lock lock-a"></i><i class="hair-lock lock-b"></i><i class="ear ear-l"></i><i class="ear ear-r"></i><i class="eye eye-l"></i><i class="eye eye-r"></i><i class="blush blush-l"></i><i class="blush blush-r"></i><i class="smile"></i><i class="clip">✿</i></span><span class="arm arm-left"></span><span class="arm arm-right"></span><span class="leg leg-left"></span><span class="leg leg-right"></span>
+          </span>
+        </button>
+        <div class="kiss-zone" aria-hidden="true"><span class="kiss-pop">umma!</span><span class="kiss-heart">♥</span><span class="kiss-heart kiss-heart-two">♥</span></div>
+        <button class="character nithu" id="nithu" aria-label="Tap Nithu to give Wazu a kiss" type="button">
+          <span class="name-tag">Nithu <i>♡</i></span>
+          <span class="person"><span class="hair-back"></span><span class="body shirt"><i class="shirt-heart">♥</i></span><span class="neck"></span><span class="head"><i class="hair-cap"></i><i class="hair-lock lock-a"></i><i class="hair-lock lock-b"></i><i class="ear ear-l"></i><i class="ear ear-r"></i><i class="eye eye-l"></i><i class="eye eye-r"></i><i class="blush blush-l"></i><i class="blush blush-r"></i><i class="smile"></i></span><span class="arm arm-left"></span><span class="arm arm-right"></span><span class="leg leg-left"></span><span class="leg leg-right"></span></span>
+        </button>
+      </div>
+      <div class="kiss-overlay" id="kiss-overlay" aria-live="polite" aria-atomic="true"><span>umma!</span></div>
+      <div class="ground"><span class="ground-flower flower-a">✿</span><span class="ground-flower flower-b">✿</span><span class="ground-flower flower-c">✿</span></div>
+    </section>
+    <footer class="game-footer"><p><span>♡</span> Every kiss counts! <span>♡</span></p><button class="end-button" id="end-game" type="button">End game <span>→</span></button></footer>
+  </main>
+  <div class="result-overlay" id="result" role="dialog" aria-modal="true" aria-labelledby="result-title" hidden><div class="result-card"><span class="result-confetti">✦ &nbsp; ♡ &nbsp; ✦</span><div class="trophy">🏆</div><p class="result-kicker">AND THE WINNER IS...</p><h2 id="result-title">Nithu won!</h2><p id="result-copy">All those sweet little kisses paid off!</p><button class="play-again" id="play-again" type="button">Play again <span>↻</span></button><button class="close-result" id="close-result" type="button" aria-label="Close result">×</button></div></div>
+  <script src="src/game.js"></script>
+</body>
+</html>
+
