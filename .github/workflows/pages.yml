@@ -26,3 +26,5 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
+# Pages source enabled; trigger deployment.
