@@ -105,3 +105,160 @@
 .kiss-scene.kiss-nithu .kiss-zone,.kiss-scene.kiss-wazu .kiss-zone{animation:contact-bubble .45s ease .16s both!important}
 .kiss-overlay.visible{animation:overlay-umma .65s ease both!important}
 
+/* Winter space observatory: deep plum sky, starlight and warm Christmas lights. */
+.garden{isolation:isolate;background:radial-gradient(ellipse at 50% 110%,#fce5ed 0,#f5e5f3 42%,#2c2451 100%)!important;border-color:#fff8!important;box-shadow:inset 0 0 45px #11163477,0 12px 35px #45326024!important}
+.garden:before,.garden:after{background:#fff3!important;filter:blur(7px)}
+.space-stars{position:absolute;inset:14px 5% auto;color:#fffbe1;font-size:17px;letter-spacing:8px;opacity:.85;white-space:nowrap;text-shadow:0 0 8px #fff}
+.planet{position:absolute;border-radius:50%;pointer-events:none}
+.planet-one{width:96px;height:96px;right:19%;top:48px;background:radial-gradient(circle at 32% 27%,#fad8ed,#bf8bd2 48%,#764d9a 78%,#483d79);box-shadow:inset -14px -12px 20px #30234988,0 0 30px #d2aaff66}
+.planet-one:after{content:"";position:absolute;inset:30px -20px;border:4px solid #f4d4d1;border-radius:50%;transform:rotate(-22deg);box-shadow:0 0 8px #ffe8dd}
+.planet-two{width:38px;height:38px;left:17%;top:100px;background:radial-gradient(circle at 30% 25%,#c7f5ed,#647fb4 72%,#473e78);box-shadow:0 0 20px #9ccef688}
+.holiday-lights{position:absolute;z-index:1;top:0;left:0;right:0;height:24px;border-top:2px solid #444069;border-radius:50% 50% 0 0/30px 30px 0 0;display:flex;justify-content:space-around}
+.holiday-lights i{width:7px;height:10px;margin-top:7px;border-radius:50% 50% 45% 45%;background:#ffd878;box-shadow:0 0 12px 3px #ffd87899;animation:twinkle 1.8s ease-in-out infinite alternate}
+.holiday-lights i:nth-child(2n){background:#ff85a8;box-shadow:0 0 12px 3px #ff85a877;animation-delay:.5s}.holiday-lights i:nth-child(3n){background:#a9f6e0;box-shadow:0 0 12px 3px #a9f6e088;animation-delay:.9s}
+.tree{position:absolute;z-index:2;bottom:28px;font-size:58px;filter:drop-shadow(0 8px 8px #12142a77);animation:tree-sway 4s ease-in-out infinite}
+.tree-left{left:2%}.tree-right{right:2%;font-size:48px;animation-delay:-2s}
+.characters{z-index:4!important}
+.person{filter:drop-shadow(0 12px 7px #11112c55);transform-style:preserve-3d}
+.head{background:radial-gradient(ellipse at 35% 28%,#fff0e2 0,#f6d5c3 48%,#dcae9f 100%)!important;box-shadow:inset -7px -6px 11px #a9706c44,2px 4px 10px #40283a33!important}
+.wazu .hair-back,.wazu .hair-cap,.wazu .hair-lock{background:radial-gradient(ellipse at 35% 20%,#84616f,#4c344a 72%)!important}
+.nithu .hair-back,.nithu .hair-cap,.nithu .hair-lock{background:radial-gradient(ellipse at 32% 20%,#766779,#37324c 76%)!important}
+.body.dress{background:linear-gradient(110deg,#fff 0,#fff7fa 55%,#d9d6e8 100%)!important;clip-path:none!important;border-radius:18px 18px 13px 13px!important;box-shadow:inset -7px -4px 8px #b8afcf66,0 3px 5px #1f1c3844}
+.dress:after{background:#b54e79!important;clip-path:polygon(20% 0,80% 0,50% 100%)!important;filter:drop-shadow(0 2px 2px #67405d66)}
+.body.shirt{background:linear-gradient(105deg,#617ca9 0,#354d7b 52%,#253354 100%)!important;border-radius:12px 12px 7px 7px!important;box-shadow:inset -8px -4px 10px #17234377,0 3px 5px #1f1c3844}
+.shirt:after{border-top-color:#e9edf8!important;filter:drop-shadow(0 2px 2px #23325288)}
+.leg{background:linear-gradient(90deg,#344c76,#6885ad 45%,#253655)!important;box-shadow:inset -3px -1px 5px #17213c99!important}
+.leg:after{content:"";position:absolute;bottom:-2px;left:-3px;width:25px;height:9px;border-radius:7px;background:linear-gradient(#fff,#b7bfd5);box-shadow:0 3px 5px #17182d66}
+.arm{background:linear-gradient(90deg,#d7a797,#ffdfce 55%,#e7bfae)!important;box-shadow:inset -3px -2px 5px #b7817a66}
+.ground{background:linear-gradient(180deg,#e9e4fa55,#d4dcf288)!important;backdrop-filter:blur(5px);border-top:1px solid #fffa}
+.ground-flower{color:#ffdf9d!important;text-shadow:0 0 8px #ffdc8d88}
+.space-cat{position:absolute;z-index:7;left:50%;bottom:45px;width:96px;height:120px;padding:0;border:0;background:transparent;cursor:pointer;transform:translateX(-50%);transition:left .75s cubic-bezier(.2,.8,.2,1),bottom .65s ease;filter:drop-shadow(0 8px 7px #19172c66)}
+.space-cat:hover{filter:drop-shadow(0 8px 12px #ffc9e8aa)}
+.space-cat.cat-wazu{left:31%;bottom:66px}.space-cat.cat-nithu{left:69%;bottom:66px}
+.cat-body{position:absolute;left:20px;bottom:8px;width:60px;height:57px;border-radius:47% 47% 42% 42%;background:radial-gradient(ellipse at 34% 23%,#fff6e9,#e6c9b4 55%,#a88178 100%);box-shadow:inset -8px -7px 9px #76525e44}
+.cat-head{position:absolute;left:6px;top:-25px;width:51px;height:47px;border-radius:48% 48% 46% 46%;background:radial-gradient(ellipse at 35% 23%,#fff8eb,#e9cbb7 60%,#a87e76 100%);box-shadow:inset -5px -4px 7px #76525e44}
+.cat-ear{position:absolute;top:-8px;width:19px;height:21px;background:#d5a996;clip-path:polygon(0 0,100% 38%,74% 100%,22% 82%);filter:drop-shadow(0 0 2px #755567)}
+.cat-ear-left{left:0;transform:rotate(-12deg)}.cat-ear-right{right:0;transform:scaleX(-1) rotate(-12deg)}
+.cat-face{position:absolute;left:13px;top:14px;width:26px;height:23px;border-radius:50%;background:#fff2df}
+.cat-eye{position:absolute;z-index:2;top:20px;width:4px;height:7px;border-radius:50%;background:#493749}.cat-eye-left{left:15px}.cat-eye-right{right:15px}
+.cat-nose{position:absolute;z-index:3;left:24px;top:28px;width:5px;height:4px;border-radius:50%;background:#d98193}
+.cat-whiskers{position:absolute;z-index:2;left:3px;top:28px;width:11px;height:1px;background:#94777b;box-shadow:1px 4px #94777b,33px -1px #94777b,34px 3px #94777b}
+.cat-tail{position:absolute;left:46px;top:7px;width:34px;height:37px;border:7px solid #b38a7e;border-left-color:transparent;border-bottom-color:transparent;border-radius:50%;transform:rotate(-15deg);animation:cat-tail-wag 1.5s ease-in-out infinite alternate}
+.cat-scarf{position:absolute;z-index:2;left:5px;top:3px;width:52px;height:10px;border-radius:10px;background:linear-gradient(#d95170,#a82f58);box-shadow:0 2px 4px #49253e66}.cat-scarf:after{content:"";position:absolute;right:5px;top:4px;width:8px;height:17px;background:#d95170;clip-path:polygon(0 0,100% 0,75% 100%,20% 80%)}
+.cat-paw{position:absolute;bottom:-3px;width:21px;height:17px;border-radius:50%;background:linear-gradient(#fff6e9,#c9aa9e)}.cat-paw-left{left:4px}.cat-paw-right{right:4px}
+.cat-caption{position:absolute;left:50%;top:-49px;transform:translateX(-50%);padding:5px 10px;border-radius:15px;background:#fff8;color:#fff;font-size:10px;font-weight:900;white-space:nowrap;text-shadow:0 1px 4px #251b46}
+.space-cat.cat-cuddling .cat-body{animation:cat-cuddle .55s ease-in-out infinite alternate}.space-cat.cat-cuddling .cat-head{transform:rotate(-12deg)}
+.space-cat.cat-purring .cat-caption{color:#ffe2a0}
+.space-cat:focus-visible{outline:2px solid #ffd89a;outline-offset:7px;border-radius:30px}
+.kiss-overlay{top:40%!important}
+@keyframes twinkle{to{filter:brightness(1.6);transform:scale(1.18)}}@keyframes tree-sway{50%{transform:rotate(2deg)}}@keyframes cat-tail-wag{to{transform:rotate(18deg)}}@keyframes cat-cuddle{to{transform:translateY(-5px) rotate(3deg)}}
+@media(max-width:600px){.tree{font-size:42px}.tree-right{font-size:36px}.planet-one{width:74px;height:74px;right:15%}.space-cat.cat-wazu{left:29%}.space-cat.cat-nithu{left:71%}}
+
+/* Black space-first presentation with astronaut suits and a looping Santa flyby. */
+:root{color:#f4efff!important;background:#03040b!important;--ink:#f4efff}
+html,body{min-height:100%;background:#03040b!important;color:#f4efff!important}
+body{background:radial-gradient(ellipse at 50% 22%,#11152b 0,#070912 43%,#020308 100%)!important}
+.game-shell{color:#f4efff!important}
+.brand,.intro p,.game-footer p{color:#d2cbe8!important}
+.intro h1{color:#f8f3ff;text-shadow:0 0 20px #a282ef66}
+.intro h1 span{color:#e3a8ff!important}
+.eyebrow{color:#cfb7ff!important}.eyebrow span,.brand-heart,.game-footer p span{color:#ffa8cb!important}
+.score-card{background:linear-gradient(145deg,#17192b,#090b15)!important;border-color:#38334e!important;box-shadow:0 6px 20px #0008,inset 0 1px #ffffff12!important;color:#fff!important}
+.score-name{color:#fff!important}.score-label{color:#b5accb!important}.score-divider,.score-divider small{color:#cdb8ff!important}
+.wazu-mini{background:#4b2942!important;color:#ffc1df!important}.nithu-mini{background:#2e3152!important;color:#c3c4ff!important}
+.score-card strong{color:#ff92c3!important}.nithu-score strong{color:#b9a6ff!important}
+.garden{background:radial-gradient(ellipse at 48% 78%,#24223e 0,#101326 37%,#080a17 73%,#03040a 100%)!important;border-color:#494066!important;box-shadow:inset 0 0 65px #000b,0 0 26px #8774d522!important}
+.garden:before,.garden:after{background:#b4d7ff18!important;filter:blur(12px)}
+.space-stars{color:#f2e9ff!important;text-shadow:0 0 9px #d5b8ff!important}
+.planet-one{box-shadow:inset -14px -12px 20px #30234988,0 0 36px #b78bff66!important}.planet-two{box-shadow:0 0 24px #9ccef6aa!important}
+.holiday-lights{border-color:#393354!important}
+.tree{filter:drop-shadow(0 8px 10px #000b) brightness(.78) saturate(1.25)!important}
+.float-heart,.float-star{filter:drop-shadow(0 0 7px currentColor)}
+.body.dress,.body.shirt{background:linear-gradient(105deg,#f5f7ff 0,#b7c4df 24%,#eef3ff 48%,#8494b6 100%)!important;border:1px solid #fff9!important;border-radius:19px 19px 12px 12px!important;box-shadow:inset -8px -5px 12px #5a668577,inset 3px 2px 5px #fff9,0 4px 8px #0008!important;clip-path:none!important}
+.dress:after{top:0!important;left:21px!important;width:22px!important;height:17px!important;background:linear-gradient(#ff537e,#bb214d)!important;clip-path:polygon(0 0,100% 0,50% 100%)!important}
+.shirt:after{top:0!important;left:21px!important;border-left:11px solid transparent!important;border-right:11px solid transparent!important;border-top:32px solid #7386a8!important}
+.dress-heart,.shirt-heart{top:37px!important;left:28px!important;color:#c8e3ff!important;text-shadow:0 0 7px #b9deff}
+.arm{background:linear-gradient(90deg,#71809c,#f0f4ff 42%,#a9bad6)!important;border:1px solid #fff8;box-shadow:inset -3px -2px 5px #525f7c99,0 2px 5px #0008!important}
+.leg{background:linear-gradient(90deg,#4b5d7d,#a7b9d6 35%,#dbe5f6 57%,#627493)!important;border:1px solid #dae5fa88;box-shadow:inset -4px -2px 5px #35445f99,0 3px 5px #0009!important}
+.leg:after{background:linear-gradient(#eff4ff,#8f9cb4)!important;box-shadow:0 3px 7px #0009!important}
+.head:after{content:"";position:absolute;z-index:9;inset:-10px -11px -8px;border:5px solid #d9eaff;border-radius:49% 49% 46% 46%;box-shadow:inset 0 0 12px #9bd8ff55,0 0 12px #9bd8ff55;pointer-events:none}
+.head:before{content:"";position:absolute;z-index:8;top:8px;left:15px;width:48px;height:15px;border-radius:50%;background:#fff7;transform:rotate(-20deg);filter:blur(3px);pointer-events:none}
+.hair-back{filter:drop-shadow(0 2px 3px #0009)}
+.ground{background:linear-gradient(180deg,#9bb7df22,#09101fc9)!important;border-top:1px solid #c6dcff55!important}
+.ground-flower{color:#dce5ff!important;text-shadow:0 0 8px #adcfff}
+.end-button,.play-again{background:linear-gradient(135deg,#a146d2,#6245bd)!important;box-shadow:0 5px 18px #8d55d555!important}
+.result-overlay{background:#03030bd9!important}.result-card{background:linear-gradient(145deg,#17162d,#0a0a14)!important;border:1px solid #6e5b8f!important;color:#fff!important}
+.result-card h2{color:#ff9ac6!important}.result-card>p:not(.result-kicker){color:#d1c4dc!important}
+.santa-flight{position:absolute;z-index:20;top:4px;left:-140px;width:130px;height:42px;display:flex;align-items:center;gap:2px;white-space:nowrap;pointer-events:none;animation:santa-across 13s linear infinite}
+.santa-sleigh{font-size:29px;filter:drop-shadow(0 0 6px #ff5959aa)}.santa-figure{font-size:27px;filter:drop-shadow(0 0 7px #ffd889aa)}.santa-trail{position:absolute;right:100%;color:#ffe9ac;font-size:12px;letter-spacing:2px;text-shadow:0 0 7px #ffe9ac}
+@keyframes santa-across{0%{transform:translateX(0) translateY(0)}8%{transform:translateX(12vw) translateY(-5px)}50%{transform:translateX(58vw) translateY(5px)}92%{transform:translateX(108vw) translateY(-4px)}100%{transform:translateX(calc(100vw + 180px)) translateY(0)}}
+@media(prefers-reduced-motion:reduce){.santa-flight{animation-duration:30s}.holiday-lights i{animation:none}}
+
+/* A friendly moon character in the upper-left corner. */
+.moon-button{position:fixed;z-index:40;left:20px;top:18px;width:58px;height:58px;padding:0;border:0;background:transparent;cursor:pointer;filter:drop-shadow(0 0 12px #ffe39c88)}
+.moon-face{position:absolute;inset:4px;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 31% 24%,#fffbd9 0,#f7e9a8 43%,#ddc474 75%,#a28a55 100%);box-shadow:inset -6px -7px 12px #79613c66,inset 4px 3px 6px #fff9,0 0 3px #fff}
+.moon-eye{position:absolute;top:24px;width:4px;height:7px;border-radius:50%;background:#45384c;z-index:3}.moon-eye-left{left:17px}.moon-eye-right{right:17px}
+.moon-blush{position:absolute;top:33px;width:10px;height:5px;border-radius:50%;background:#f49b9d99;filter:blur(1px);z-index:2}.moon-blush-left{left:8px}.moon-blush-right{right:8px}
+.moon-smile{position:absolute;z-index:4;left:25px;top:34px;width:9px;height:5px;border-bottom:2px solid #9e6470;border-radius:50%}
+.moon-crater{position:absolute;border-radius:50%;background:#d4c17f77;box-shadow:inset 1px 2px 2px #9e895599}.crater-one{width:9px;height:6px;right:7px;top:11px}.crater-two{width:5px;height:4px;left:9px;top:13px}
+.moon-tongue{position:absolute;z-index:5;left:24px;top:38px;width:11px;height:0;background:linear-gradient(90deg,#ff879d,#e95079);border-radius:0 0 8px 8px;transition:height .18s ease;box-shadow:inset -2px 0 #d83f68}
+.moon-message{position:absolute;left:68px;top:8px;padding:8px 12px;white-space:nowrap;border-radius:17px;background:#17162c;border:1px solid #ead59a;color:#fff1bd;font-size:11px;font-weight:900;box-shadow:0 5px 17px #0008;opacity:0;visibility:hidden;transform:translateX(-5px) scale(.9);transition:.2s ease}
+.moon-message:before{content:"";position:absolute;left:-5px;top:13px;width:9px;height:9px;background:#17162c;border-left:1px solid #ead59a;border-bottom:1px solid #ead59a;transform:rotate(45deg)}
+.moon-message-visible{opacity:1;visibility:visible;transform:translateX(0) scale(1)}
+.moon-button.moon-nudged .moon-face{animation:moon-nudge .35s ease}
+.moon-button.moon-biting .moon-face{animation:moon-giggle .45s ease-in-out infinite alternate}
+.moon-button.moon-biting .moon-smile{left:22px;top:34px;width:14px;height:6px;border-bottom-width:3px}
+.moon-button.moon-biting .moon-tongue{height:10px}
+@keyframes moon-nudge{25%{transform:rotate(-10deg) scale(1.08)}75%{transform:rotate(8deg)}}@keyframes moon-giggle{to{transform:rotate(5deg) scale(1.04)}}
+/* Let the starfield fill the page; the characters stand on a lunar horizon. */
+.game-shell{width:100%;max-width:none;padding-left:max(36px,calc((100vw - 950px)/2));padding-right:max(36px,calc((100vw - 950px)/2));overflow:hidden}
+.garden{overflow:hidden!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;min-height:340px}
+.garden:before{width:120vw;height:120px;left:-10vw;bottom:-59px;background:radial-gradient(ellipse at 50% 0,#dce3ef 0,#8c96ab 46%,#50596d 100%)!important;filter:none!important;z-index:1}
+.garden:after{width:52vw;height:60px;left:26vw;right:auto;bottom:-38px;background:radial-gradient(ellipse at 50% 0,#f0f1f7aa,#9ba4b7 62%,transparent 72%)!important;filter:none!important;z-index:2}
+.ground{z-index:3!important;height:94px!important;bottom:-15px!important;border:0!important;border-radius:50% 50% 0 0/40% 40% 0 0!important;background:linear-gradient(180deg,#aeb7c8 0,#707b92 40%,#30394e 100%)!important;box-shadow:inset 0 8px 15px #f0f3ff66,0 -5px 25px #bac8ed33!important;overflow:hidden}
+.lunar-crater{position:absolute;top:9px;height:19px;border-radius:50%;background:linear-gradient(180deg,#515d74,#8792a6 60%,#c2c8d5);box-shadow:inset 0 4px 7px #303a4e99,0 2px 2px #e1e5ef66}
+.crater-left{left:16%;width:58px}.crater-mid{left:48%;top:20px;width:39px;height:12px}.crater-right{right:17%;width:68px;height:24px}
+.lunar-rock{position:absolute;bottom:20px;width:13px;height:8px;background:#d1d5df;border-radius:65% 30% 50% 35%;box-shadow:2px 2px 3px #313a50}.rock-one{left:37%}.rock-two{right:35%;transform:scale(.7)}
+.characters{z-index:5!important}
+.moon-button{position:absolute;left:16px;top:15px}
+@media(max-width:600px){.game-shell{padding-left:15px;padding-right:15px}.moon-button{position:fixed;left:10px;top:10px}.garden{min-height:330px}.ground{height:82px!important}}
+
+/* Keep the kiss lettering visible while making its annotation itself transparent. */
+.kiss-overlay span{background:transparent!important;border:0!important;box-shadow:none!important;text-shadow:0 0 10px #ff9fd4,0 1px 5px #160b23!important;color:#ffd1eb!important;padding:4px 8px!important}
+.kiss-overlay span:before,.kiss-overlay span:after{display:none!important;content:none!important}
+/* Remove the wire/upper rule while keeping the festive bulbs. */
+.holiday-lights{border:0!important;border-radius:0!important}
+/* Result-specific decorations: fireworks for a draw, a little orbiting friend for a win. */
+.result-card{overflow:hidden}
+.tie-fireworks{position:absolute;inset:0;pointer-events:none;display:none}
+.result-tie .tie-fireworks{display:block}
+.tie-fireworks i{position:absolute;font-style:normal;font-size:32px;line-height:1;color:#ffe98a;text-shadow:0 0 8px #ffeb8c,0 0 20px #ff6fb8;opacity:0;animation:firework-burst 1.5s ease-out infinite}
+.tie-fireworks i:nth-child(1){left:14%;top:18%;animation-delay:0s;color:#ff91c7}
+.tie-fireworks i:nth-child(2){right:14%;top:23%;animation-delay:.38s;color:#a9e7ff}
+.tie-fireworks i:nth-child(3){right:22%;top:51%;animation-delay:.76s;color:#ffe98a}
+.tie-fireworks i:nth-child(4){left:19%;top:57%;animation-delay:1.1s;color:#d2a5ff}
+.result-confetti,.trophy-wrap,.result-kicker,.result-card h2,.result-card>p:not(.result-kicker),.result-card .play-again{position:relative;z-index:2}
+.trophy-wrap{height:74px;width:150px;margin:6px auto 4px;display:grid;place-items:center}
+.trophy{position:relative;z-index:2;font-size:46px;line-height:1;margin:0!important;filter:drop-shadow(0 4px 9px #ffcf6877)}
+.winner-mascot{display:none;position:absolute;z-index:3;left:50%;top:50%;width:34px;height:28px;overflow:visible;animation:mascot-orbit 2.2s linear infinite}
+.result-nithu .mascot-cat,.result-hazu .mascot-gummy{display:block}
+.mascot-cat{fill:#d98a47;filter:drop-shadow(0 2px 3px #0009)}
+.cat-stripes,.cat-leg{fill:none;stroke:#54313a;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.cat-tail-art{fill:none;stroke:#d98a47;stroke-width:6;stroke-linecap:round}
+.mascot-gummy{fill:#b6df74;stroke:#75a54b;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 3px #0009)}
+.mascot-gummy ellipse,.mascot-gummy path:not(.gummy-shine){fill:#38513b;stroke:none}.mascot-gummy .gummy-shine{fill:none;stroke:#efffc7;stroke-width:3;opacity:.8}
+@keyframes firework-burst{0%{opacity:0;transform:scale(.18) rotate(0)}18%{opacity:1;transform:scale(1) rotate(35deg)}55%{opacity:.85;transform:scale(1.18) rotate(80deg)}100%{opacity:0;transform:scale(1.6) rotate(145deg)}}
+@keyframes mascot-orbit{from{transform:translate(-50%,-50%) rotate(0deg) translateX(57px) rotate(0deg)}to{transform:translate(-50%,-50%) rotate(360deg) translateX(57px) rotate(-360deg)}}
+@media(prefers-reduced-motion:reduce){.tie-fireworks i,.winner-mascot{animation-duration:5s}}
+/* Keep the winner dialog calm: no mascots orbit around the trophy. */
+.winner-mascot{display:none!important;animation:none!important}
+/* The moon joins the tie celebration and bounces with little orbiting sparkles. */
+.moon-celebration-sparkles{position:absolute;left:-7px;right:-7px;top:-9px;z-index:3;font-size:10px;letter-spacing:8px;color:#ffe996;text-shadow:0 0 9px #ffe996;opacity:0;pointer-events:none}
+.moon-button.moon-celebrating .moon-face{animation:moon-celebrate-dance .48s ease-in-out infinite alternate}
+.moon-button.moon-celebrating .moon-smile{left:22px;top:33px;width:14px;height:7px;border-bottom-width:3px}
+.moon-button.moon-celebrating .moon-blush{background:#ff819f;box-shadow:0 0 6px #ff819f}
+.moon-button.moon-celebrating .moon-celebration-sparkles{opacity:1;animation:moon-sparkle-dance .75s ease-in-out infinite alternate}
+@keyframes moon-celebrate-dance{0%{transform:translateY(0) rotate(-9deg) scale(1)}100%{transform:translateY(-9px) rotate(9deg) scale(1.07)}}
+@keyframes moon-sparkle-dance{to{transform:translateY(-7px) rotate(12deg);filter:brightness(1.7)}}
+@media(prefers-reduced-motion:reduce){.moon-button.moon-celebrating .moon-face,.moon-button.moon-celebrating .moon-celebration-sparkles{animation-duration:2s}}
+
